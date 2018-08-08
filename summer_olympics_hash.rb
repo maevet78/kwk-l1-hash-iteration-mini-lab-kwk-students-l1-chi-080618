@@ -6,12 +6,13 @@ def create_olympics_hash
   :Beijing => "2008",
   :London => "2012"
 }
+summer_olympics
 end
-create_olympics_hash
 
 def add_a_key_value_pair
-  return summer_olympics
- summer_olympics["Atlnta"] = 1996
+  summer_olympics = summer_olympics_has
+ summer_olympics[:Atlnta] = "1996"
+ summer_olympics
 end
 add_a_key_value_pair
 
