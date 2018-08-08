@@ -5,14 +5,14 @@ def create_olympics_hash
   :Athens => "2004",
   :Beijing => "2008",
   :London => "2012"
-}
-summer_olympics
+ }
+ summer_olympics
 end
 
 def add_a_key_value_pair
   summer_olympics = summer_olympics_hash
- summer_olympics[:Atlnta] = "1996"
- summer_olympics
+  summer_olympics[:Atlnta] = "1996"
+  summer_olympics
 end
 
 add_a_key_value_pair
