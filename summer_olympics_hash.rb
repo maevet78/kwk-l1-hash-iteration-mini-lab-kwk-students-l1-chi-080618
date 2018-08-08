@@ -8,21 +8,18 @@ def create_olympics_hash
  summer_olympics
 end
 
-
-
-
 def add_a_key_value_pair
   summer_olympics = create_olympics_hash
   summer_olympics[:Atlanta] = "1996"
   summer_olympics
 end
 
-# # def iterate_through_hash
-# #   summer_olympics = create_olympics_hash
-# #   summer_olympics.each do 
-#   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
-#   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
-# end
+# def iterate_through_hash
+#   summer_olympics = create_olympics_hash
+#   summer_olympics.each do 
+  # Implement this method so that it iterates over the hash created in add_a_key_value_pair
+  # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
+end
 
 # def iterate_through_keys
 #   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
