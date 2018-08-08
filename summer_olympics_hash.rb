@@ -11,7 +11,7 @@ create_olympics_hash
 
 def add_a_key_value_pair
  summer_olympics []
- summer_olympics[:Atlnta => 1996]
+ summer_olympics["Atlnta"] = 1996
 end
 add_a_key_value_pair
 
