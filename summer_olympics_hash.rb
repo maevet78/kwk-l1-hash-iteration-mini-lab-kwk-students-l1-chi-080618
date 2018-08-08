@@ -10,11 +10,11 @@ summer_olympics
 end
 
 def add_a_key_value_pair
-  summer_olympics = summer_olympics_has
+  summer_olympics = summer_olympics_hash
  summer_olympics[:Atlnta] = "1996"
  summer_olympics
 end
-add_a_key_value_pair
+
 
 # def iterate_through_hash
 #   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
